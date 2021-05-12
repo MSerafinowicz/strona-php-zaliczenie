@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Zadanie I</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="C:/Users/Marcin/Desktop/1/style.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <h1 class="text-center">Zadanie 1</h1>
+        
+        <div class="container">
+            <table class="table table-bordered table-striped" id="table">
+                <caption>
+                    <h4 class="text-center">Artykuły spożywcze</h4>
+                    <input type="text" id="input" style="float: right;margin-right: 25px;" onkeyup="search()" placeholder="search">
+                    <!-- <input type="button" class="btn btn-primary input-sm" value="Szukaj" style="float: right;margin-right: 25px;"> -->
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Id <span onclick="sortTableUp(0)">&dArr;</span><span  onclick="sortTableDown(0)">&uArr;</span></th>
+                        <th>Nazwa artykułu <span onclick="sortTableUp(1)">&dArr;</span><span onclick="sortTableDown(1)" onclick="sortTableDown(1)">&uArr;</span></th>
+                        <th>Cena netto<span onclick="sortTableUp(2)">&dArr;</span><span onclick="sortTableDown(2)">&uArr;</span></th>
+                        <th>VAT<span onclick="sortTableUp(3)">&dArr;</span><span onclick="sortTableDown(3)">&uArr;</span></th>
+                        <th>Cena brutto<span onclick="sortTableUp(4)">&dArr;</span><span onclick="sortTableDown(4)">&uArr;</span></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Średnia:</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b><i>Razem:</i></b></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        
+        
+        
+        
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="C:/Users/Marcin/Desktop/1/script.js"></script>
+    </body>
+</html>

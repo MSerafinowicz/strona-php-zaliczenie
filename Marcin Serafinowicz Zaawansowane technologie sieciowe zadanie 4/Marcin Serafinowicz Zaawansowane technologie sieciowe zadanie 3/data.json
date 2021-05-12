@@ -1,0 +1,26 @@
+{
+    "p": [
+        {
+            "id": "ID:0120200507",
+            "autor": {
+                "mail": "szkola@wp.pl",
+                "idProfilu": "ID-Profilu:12",
+                "nazwa": "Prezenatacja pracowni",
+                "awatar": "Paweł Kiszka",
+                "stopka": "Pracownia glazury"
+            },
+            "tresc": "Pracownia glazury wypala różne figurki porcelanowe",
+            "odpowiedzi": [
+                "5",
+                "8",
+                "10"
+            ],
+            "plik": {
+                "id": "2020_05_07_00_00_00",
+                "url": "http://www.google.pl/image.jpg",
+                "opis": "Pracownia glazury wnętrze",
+                "autor": "Paweł Kiszka"
+            }
+        }
+    ]
+}

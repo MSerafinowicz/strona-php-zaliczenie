@@ -1,0 +1,4 @@
+hr{border: 1px solid #777877;}
+table tr,th,td{border:1px solid peru!important;}
+#btn-reset{float: right;margin:15px 15px;font-size:small;}
+#btn-reset:hover{color: red;text-decoration: underline;}
